@@ -190,14 +190,20 @@ def main():
 	# It creates 3 objects of the movie class and appends to a list then uses the open_movie_page
 	# method to generate an html page.
 
-	a = movie("karate kid",                                                                                            "http://www.impawards.com/1984/posters/karate_kid_xlg.jpg",                                              "https://www.youtube.com/watch?v=C1iFZGV_IO8")  # noqa
+	a = movie("karate kid",
+                  "http://www.impawards.com/1984/posters/karate_kid_xlg.jpg",
+                  "https://www.youtube.com/watch?v=C1iFZGV_IO8")  # noqa
 	
 	# method below is used to test the class
 	# a.describe()
 	
-	b = movie("karate kid II",                                                                                         "http://www.joblo.com/timthumb.php?src=/posters/images/full/1986-the-karate-kid-part-ii-poster1.jpg&w=654&zc=1&q=90",                                                                                             "https://www.youtube.com/watch?v=ksWefA8f7_g")  # noqa
+	b = movie("karate kid II",
+                  "http://www.joblo.com/timthumb.php?src=/posters/images/full/1986-the-karate-kid-part-ii-poster1.jpg&w=654&zc=1&q=90", # noqa                       
+                  "https://www.youtube.com/watch?v=ksWefA8f7_g")  # noqa
 
-	c = movie("karate III",                                                                                            "http://www.impawards.com/1989/posters/karate_kid_part_iii_xlg.jpg",                                     "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CB0QtwIwAGoVChMIgaT0k7fHyAIVhHM-Ch3PTAlL&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DdQskuE4p0mA&usg=AFQjCNF04cofSVVmwGB4niEMckq4JxHUEg&sig2=2lDq0tmq1ZAfb4ZS3I5OQw")  # noqa
+	c = movie("karate III",
+                  "http://www.impawards.com/1989/posters/karate_kid_part_iii_xlg.jpg",
+                  "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CB0QtwIwAGoVChMIgaT0k7fHyAIVhHM-Ch3PTAlL&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DdQskuE4p0mA&usg=AFQjCNF04cofSVVmwGB4niEMckq4JxHUEg&sig2=2lDq0tmq1ZAfb4ZS3I5OQw")  # noqa
 	
 	# List will contains the movies
 	List = []
